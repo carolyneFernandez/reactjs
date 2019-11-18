@@ -1,22 +1,32 @@
 import React from 'react';
-import { getAllFilms } from '../../api';
-import Films from '../../components/films';
-export default class Home extends React.Component {
-  constructor(props){
+import Feed from '../../components/Feed/Feed';
+import {getAllFilms} from "../../api.js";
 
-    
-  }
-  render() {
-    const films=getAllFilms();
+class Home extends React.Component {
+    constructor(props) {
+        super(props);
 
-    return (
-      <div>
-        <h1>Tous nos films</h1>
-        <section>
-          <Films posts={films}></Films>
-               
-        </section>
-      </div>
-    );
-  }
+        this.state = {
+            films: [],
+        };
+    }
+
+    componentDidMount() {
+        const films = getAllFilms();
+        this.setState({
+            films: films
+        })
+    }
+
+    render() {
+        const {films} = this.state;
+        return (
+            <section>
+                <h1>Liste des films</h1>
+                <Feed films={films}/>
+            </section>
+        )
+    }
 }
+
+export default Home;
