@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: 16px;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.App {
+  padding-top: 60px;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.AppHeader {
+  border-bottom: 2px solid white;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.AppHeader nav a.active {
+  color: #09d3ac;
+  text-decoration: underline;
+}

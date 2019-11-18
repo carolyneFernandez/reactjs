@@ -1,0 +1,43 @@
+[
+  {
+    "slug": "2001",
+    "title": "2001: A Space Odyssey",
+    "year": 1968,
+    "description": "Un film britannico-américain de science-fiction produit et réalisé par Stanley Kubrick, sorti en 1968, basé sur un scénario écrit par Kubrick et le romancier Arthur C. Clarke, partiellement inspiré d'une nouvelle de Clarke intitulée La Sentinelle."
+  },
+  {
+    "slug": "pulp-fiction",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "description": "Un film de gangsters américain réalisé par Quentin Tarantino et sorti en 1994. Le scénario est co-écrit par Tarantino et Roger Avary. Utilisant la technique de narration non linéaire, il entremêle plusieurs histoires ayant pour protagonistes des membres de la pègre de Los Angeles.",
+    "similars": ["leon"]
+  },
+  {
+    "slug": "godfather",
+    "title": "Le Parain",
+    "year": 1972,
+    "description": "Il s'agit d'une adaptation du roman éponyme de Mario Puzo. L'histoire se déroule de 1945 à 1955, se centre sur les Corleone, une des plus grandes familles de la mafia.",
+    "similars": ["godfather-2", "godfather-3"]
+  },
+  {
+    "slug": "godfather-2",
+    "title": "Le Parain 2",
+    "year": 1974,
+    "description": "Il fait suite au film Le Parrain, sorti deux ans avant, et précède Le Parrain 3",
+    "similars": ["godfather", "godfather-3"]
+  },
+  {
+    "slug": "godfather-3",
+    "title": "Le Parain 3",
+    "year": 1990,
+    "description": "Épilogue de la trilogie inspirée de l'œuvre de Mario Puzo, il est sorti dix-huit ans après Le Parrain.",
+    "similars": ["godfather", "godfather-2"]
+  },
+  {
+    "slug": "leon",
+    "title": "Léon",
+    "year": 1994,
+    "description": "Léon retrace la vie d'un tueur à gages du même nom vivant en solitaire à New York et qui héberge, après un concours de circonstances, une voisine de palier, Mathilda.",
+    "similars": ["pulp-fiction"]
+  }
+]
