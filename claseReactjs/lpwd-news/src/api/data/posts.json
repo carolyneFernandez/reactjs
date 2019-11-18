@@ -1,0 +1,46 @@
+[
+  {
+    "by" : "dhouston",
+    "id" : 1,
+    "kids" : [],
+    "score" : 111,
+    "time" : 1175714200,
+    "title" : "1.My YC app: Dropbox - Throw away your USB drive",
+    "type" : "story",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet nisi nec metus varius pellentesque. Nam nec dolor odio. Maecenas ac nunc ipsum.",
+    "url" : "http://www.getdropbox.com/u/2/screencast.html"
+  },
+  {
+    "by" : "dhouston",
+    "id" : 2,
+    "kids" : [3, 4],
+    "score" : 111,
+    "time" : 1175714200,
+    "title" : "2.My YC app: Dropbox - Throw away your USB drive",
+    "type" : "story",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet nisi nec metus varius pellentesque. Nam nec dolor odio. Maecenas ac nunc ipsum.",
+    "url" : "http://www.getdropbox.com/u/2/screencast.html"
+  },
+  {
+    "by" : "dhouston",
+    "id" : 3,
+    "kids" : [],
+    "score" : 111,
+    "time" : 1175714200,
+    "title" : "My YC app: Dropbox - Throw away your USB drive",
+    "type" : "story",
+    "text": "4/Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet nisi nec metus varius pellentesque. Nam nec dolor odio. Maecenas ac nunc ipsum.",
+    "url" : "http://www.getdropbox.com/u/2/screencast.html"
+  },
+  {
+    "by" : "dhouston",
+    "id" : 4,
+    "kids" : [],
+    "score" : 111,
+    "time" : 1175714200,
+    "title" : "4.My YC app: Dropbox - Throw away your USB drive",
+    "type" : "story",
+    "text": "3.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet nisi nec metus varius pellentesque. Nam nec dolor odio. Maecenas ac nunc ipsum.",
+    "url" : "http://www.getdropbox.com/u/2/screencast.html"
+  }
+]

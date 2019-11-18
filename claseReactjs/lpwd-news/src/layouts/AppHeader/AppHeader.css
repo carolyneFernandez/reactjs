@@ -1,0 +1,22 @@
+.AppHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15%;
+  box-sizing: border-box;
+}
+
+.AppHeader nav a {
+  margin-left: 20px;
+}
+
+.AppHeader nav a.active {
+  color: #09d3ac;
+}
